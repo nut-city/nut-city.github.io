@@ -2,6 +2,7 @@ function nutFunc()
 {
   document.getElementById("welcome").innerHTML="Nutting.";
   document.getElementById("activate").innerHTML="Done?";
+  document.getElementById("activate").onclick="nutStop()";
   document.getElementById("totodile").style.display="block";
 }
 
